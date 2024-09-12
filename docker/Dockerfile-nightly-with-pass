@@ -1,4 +1,5 @@
-FROM zklcdc/go-bingai-pass:latest
+FROM solitude0921/go-bingai-pass:latest
+
 
 ENV GBP_USER ${GBP_USER:-gbp}
 ENV GBP_USER_ID ${GBP_USER_ID:-1000}
